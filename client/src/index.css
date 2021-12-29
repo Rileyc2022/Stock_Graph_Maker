@@ -1,0 +1,33 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: "Hind";
+    src: url("./fonts/Hind-Light.ttf") format("truetype");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "Hind";
+    src: url("./fonts/Hind-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Hind";
+    src: url("./fonts/Hind-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "Hind";
+    src: url("./fonts/Hind-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Hind";
+    src: url("./fonts/Hind-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  
+@tailwind utilities;

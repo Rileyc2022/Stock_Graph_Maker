@@ -1,0 +1,65 @@
+html, body, #root, .App {
+    height: 100%;
+  }
+
+/* 
+  .dropdown-font-family{
+      color: black
+  } */
+  #font-picker-LargeText, #font-picker-SmallText{
+    width: 150px;
+  }
+
+  /* li.font-list-item{
+      color: black;
+  } */
+
+  div[id^=font-picker]{
+    border-bottom: 2px solid var(--border-color);
+    box-shadow: none !important;
+  }
+  .dropdown-button{
+    background: none !important;
+  }
+
+  div[id^=font-picker] *{
+    color: var(--border-color) !important;
+  }
+  div[id^=font-picker] ul{
+    background: #2e3136f2 !important;
+    backdrop-filter: blur(8px) !important;
+  }
+  div[id^=font-picker] ul li button.active-font{
+    background: #555a63 !important;
+  }
+
+  div[id^=font-picker] ul li button:hover, div[id^=font-picker] ul li button:focus{
+    background: #3f434a !important;
+  }
+  .dropdown-icon::before{
+    border-top-color: var(--border-color) !important;
+  }
+
+
+  div.formats > span, div.sizes > span{
+    cursor: pointer;
+    border-bottom: transparent solid 2px;
+    opacity: 0.8;
+    flex-grow: 1;
+    flex-basis: 0
+  }
+  .not-selected{
+    opacity: 0.5;
+  }
+  .selected, div.formats > span:hover, div.sizes > span:hover{
+    background-color: #555a63;
+    opacity: 1;
+  }
+
+  button.export{
+
+  }
+
+  /* .apexcharts-canvas{
+    background: black;
+  } */

@@ -1,0 +1,23 @@
+{
+  "name": "tickercheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "date-and-time": "^1.0.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "iso8601-convert": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "cd client && npm start",
+    "start": "node index.js",
+    "both": "cd client && npm install && npm run build && cd .. && npm install && node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
